@@ -29,7 +29,7 @@ android {
         jvmTarget = '1.8'
     }
 }
-
+// need to check its use case
 afterEvaluate {
     publishing {
         publications {
@@ -37,7 +37,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.vtn-dev-ajay'
                 artifactId = 'NewToasty'
-                version = '1.0.0'
+                version = '1.1.0'
             }
         }
     }
